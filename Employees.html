@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Employee List</title>
+  
+<link rel="stylesheet"  href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+  <h1>Employee List</h1>
+    
+  <a href="index.html" 
+       class="back-button"> --Go Back--</a>
+
+    <table id="empTable">
+      
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email
+        </th>
+        <th>Dept</th>
+        <th>Join Date </th>
+        <th>Gender</th>
+        <th>Type</th>
+        <th>Actions</th>
+        </tr>
+        <tr>
+     <td>EMP001</td>
+     <td>shanto</td>
+   <td>shanto@gmail.com</td>
+         <td>IT</td>
+        <td>2003-05-13</td>
+        <td>Male</td>
+        <td>Full-Time</td>
+        <td>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button> </td>
+      </tr>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email
+        </th>
+        <th>Dept</th>
+        <th>Join Date </th>
+        <th>Gender</th>
+        <th>Type</th>
+        <th>Actions</th>
+        </tr>
+        <tr>
+     <td>EMP002</td>
+     <td>shanto</td>
+   <td>shanto@gmail.com</td>
+         <td>IT</td>
+        <td>2003-05-13</td>
+        <td>Male</td>
+        <td>Full-Time</td>
+        <td>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button> </td>
+      </tr>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email
+        </th>
+        <th>Dept</th>
+        <th>Join Date </th>
+        <th>Gender</th>
+        <th>Type</th>
+        <th>Actions</th>
+        </tr>
+        <tr>
+     <td>EMP003</td>
+     <td>shanto</td>
+   <td>shanto@gmail.com</td>
+         <td>IT</td>
+        <td>2003-05-13</td>
+        <td>Male</td>
+        <td>Full-Time</td>
+        <td>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button> </td>
+      </tr>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email
+        </th>
+        <th>Dept</th>
+        <th>Join Date </th>
+        <th>Gender</th>
+        <th>Type</th>
+        <th>Actions</th>
+        </tr>
+        <tr>
+     <td>EMP004</td>
+     <td>shanto</td>
+   <td>shanto@gmail.com</td>
+         <td>IT</td>
+        <td>2003-05-13</td>
+        <td>Male</td>
+        <td>Full-Time</td>
+        <td>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button> </td>
+      </tr>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email
+        </th>
+        <th>Dept</th>
+        <th>Join Date </th>
+        <th>Gender</th>
+        <th>Type</th>
+        <th>Actions</th>
+        </tr>
+        <tr>
+     <td>EMP005</td>
+     <td>shanto</td>
+   <td>shanto@gmail.com</td>
+         <td>IT</td>
+        <td>2003-05-13</td>
+        <td>Male</td>
+        <td>Full-Time</td>
+        <td>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button> </td>
+      </tr>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email
+        </th>
+        <th>Dept</th>
+        <th>Join Date </th>
+        <th>Gender</th>
+        <th>Type</th>
+        <th>Actions</th>
+        </tr>
+        <tr>
+     <td>EMP006</td>
+     <td>shanto</td>
+   <td>shanto@gmail.com</td>
+         <td>IT</td>
+        <td>2003-05-13</td>
+        <td>Male</td>
+        <td>Full-Time</td>
+        <td>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button> </td>
+      </tr>
+    </table>
+
+    <div id="editForm" 
+         style="display:none;">
+      <h2>Edit Employee</h2>
+   
+      
+  <input type="text" 
+           id="editId" 
+          readonly><br>
+      
+     <input type="text" 
+             id="editName"><br>
+      
+  <input type="email" 
+    id="editEmail"><br>
+      
+      <select id="editDept">
+        <option>HR</option>
+        <option>IT</option>
+        <option>Sales</option>
+        <option>Marketing</option>
+      </select><br>
+      
+      <input type="date" 
+             id="editDate"><br>
+      
+      <div>
+        <input type="radio" 
+               name="editGender" 
+               value="Male"> Male
+        <input type="radio" 
+               name="editGender" 
+               value="Female"> Female
+      </div>
+      
+      <label>
+        <input type="checkbox" 
+               id="editFullTime"> Full-Time </label><br>
+      <button id="saveEdit">
+        Save Changes  </button>
+      
+      <button id="cancelEdit">
+        Cancel</button>
+    
+    </div>
+
+  </div>
+
+
+
+<script src="script.js">
+</script>
+
+</body>
+</html>

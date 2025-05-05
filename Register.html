@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+  Employee Registration
+    </title>
+
+  <link rel="stylesheet" 
+  href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+ <h1>Register
+   Employee</h1>
+
+<a href="index.html" 
+class="back-button">
+ --Go Back--</a>
+
+        <form id="empForm">
+
+<label for="empId">
+Employee ID:</label>
+            <input 
+           type="text" 
+           id="empId"required>
+          <p class="error"
+         id="idError"></p>
+
+<label for="empName">
+Full Name:</label>
+  <input type="text"
+   id="empName" required>
+    <p class="error"
+     id="nameError"></p>
+
+
+<label for="empEmail">
+Email:</label>
+      <input 
+         type="email" 
+         id="empEmail" required>
+    <p class="error"
+     id="emailError"></p>
+
+<label for="empDept">
+Department:</label>
+          <select 
+          id="empDept" required>
+            <option value="">
+            -- Select --</option>
+            <option value="HR">
+            HR</option>
+            <option value="IT">
+            IT</option>
+            <option value="Sales">
+            Sales</option>
+          </select>
+        <p class="error"
+        id="deptError"></p>
+
+<label>Gender:</label>
+          <div>
+            <input type="radio" 
+            name="gender" value="Male" required> 
+            Male
+            <input type="radio" 
+            name="gender" value="Female"> 
+            Female
+          </div>
+        <p class="error"
+        id="genderError"></p>
+
+<label for="joinDate">
+Join Date:</label>
+          <input type="date" 
+          id="joinDate" required>
+        <p class="error"
+        id="dateError"></p>
+
+<label>
+          <input type="checkbox" 
+          id="fullTime"> 
+          Full-Time
+        </label>
+
+          <div class="buttons">
+            <button 
+            type="submit">
+            Register</button>
+            <button 
+            type="reset">
+            Clear Form</button>
+          </div>
+
+        </form>
+
+        <div id="displayData">
+        </div>
+    </div>
+
+
+<script src="script.js">
+</script>
+
+</body>
+</html>
